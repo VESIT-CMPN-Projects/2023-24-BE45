@@ -1,4 +1,4 @@
-Title: #_**Madhuvista- Your Diabetes Ally**_
+# Madhuvista- Your Diabetes Ally
 
 The first part of the project consist of the **software** side of project which involved creation of various ML models for comparison. 
 Datasets used: PIMA & Sylhet.
