@@ -1,13 +1,13 @@
-double score(double * input) {
+double score(double input) {
     double var0;
-    if (input[0] <= 315.5) {
-        if (input[0] <= 310.5) {
+    if (input <= 315.5) {
+        if (input <= 310.5) {
             var0 = 86.0;
         } else {
-            if (input[0] <= 312.5) {
+            if (input <= 312.5) {
                 var0 = 121.0;
             } else {
-                if (input[0] <= 314.5) {
+                if (input <= 314.5) {
                     var0 = 96.0;
                 } else {
                     var0 = 93.0;
@@ -15,8 +15,8 @@ double score(double * input) {
             }
         }
     } else {
-        if (input[0] <= 318.0) {
-            if (input[0] <= 316.5) {
+        if (input <= 318.0) {
+            if (input <= 316.5) {
                 var0 = 123.0;
             } else {
                 var0 = 118.0;
